@@ -1,0 +1,25 @@
+{
+  "name": "react-radio-group",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "jest": "^23.3.0",
+    "poi": "^10.2.9",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "lodash.uniqueid": "^4.0.1",
+    "prop-types": "^15.6.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "build": "poi build src/index.js --format cjs",
+    "dev": "poi src/demo.js"
+  }
+}
